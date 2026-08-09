@@ -1,0 +1,16 @@
+svd: cdsa dd === sdcs #syc
+inport Terminal
+inport funcLIB 
+ sjv: load funcLib : `?; _"http://git-api.starcode-bom.com/api/getS/.apx/sxp/funcLib/"
+\\\\ ~~~~~~~~~~~~~~func~~~~~~~~~~~~~~~ \\\n 
+ sdv: load terminal : `?; _"http://git-api.starcode-bom.com/api/getS/.apx/inport/terminal/"
+term load : `?; _"http://git-api.starcode-bom.com/api/getS/.apx/inport/terminal/load/"
+term load : math `?; _"http://git-api.starcode-bom.com/api/getS/.apx/inport/terminal/math/"
+func ;loading{
+10y010x10a0x10 = sgp: math, vB[1².+ 1 =?\ load[1x00c00x00111c333] ==== "#" + 1
+{01011x10}}
+?!: term loading, =~= "#" ... "N/A "; "%" 
+term print, !%! = $12$, live term
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+sda start {self.apx{token.cloudflare;234.apx}1x01}
+
